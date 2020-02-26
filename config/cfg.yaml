@@ -1,0 +1,19 @@
+common:
+    arch: "resnet9"
+    workers: 4
+    batch_size: 50
+    lr: 0.1
+    epochs: 20
+    policy: "step"
+    base_lr: 0.01
+    momentum: 0.9
+    weight_decay: 0.0001
+    print_freq: 50
+    input_size: 112
+    image_size: 112
+    weight_list: [0,1,1,0,0]
+    choose_epoch: 6
+    save_path: checkpoints/baseline
+    train_path: '/media/sdc/datasets/Face-anti-spoofing/CASIA-CeFA/phase1'
+    test_path: '/media/sdc/datasets/Face-anti-spoofing/CASIA-CeFA/phase2'
+    loss: "cross-entropy"
