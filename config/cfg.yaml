@@ -1,7 +1,7 @@
 common:
     arch: "resnet9"
     workers: 4
-    batch_size: 50
+    batch_size: 64
     lr: 0.1
     epochs: 20
     policy: "step"
@@ -11,7 +11,7 @@ common:
     print_freq: 50
     input_size: 112
     image_size: 112
-    weight_list: [0,1,1,0,0]
+    weight_list: [1,1,2,1,1]
     choose_epoch: 6
     save_path: checkpoints/baseline
     train_path: '/media/sdc/datasets/Face-anti-spoofing/CASIA-CeFA/phase1'

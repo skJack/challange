@@ -20,12 +20,17 @@ We use CASIA-SURF CeFA to train.
 
 
 ## Inference
-
+#### dev
+```
+1. python get_final_squence.py --protoal 4@1 --which "dev"
+2. python get_final_squence.py --protoal 4@2 --which "dev"
+3. python get_final_squence.py --protoal 4@3 --which "dev"
+```
 #### test
 ```
-1. python get_final_score.py --protoal 4@1
-2. python get_final_score.py --protoal 4@2
-3. python get_final_score.py --protoal 4@3
+1. python get_final_squence.py --protoal 4@1 
+2. python get_final_squence.py --protoal 4@2
+3. python get_final_squence.py --protoal 4@3
 ```
 
 ## merge and submit
