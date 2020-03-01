@@ -9,8 +9,6 @@ change the train_path and test_path in /config/cfg.yaml
 
 ## Train
 
-We use CASIA-SURF CeFA to train. 
-
 ####  Train 
 ```
 1. python train.py --protoal 4@1
